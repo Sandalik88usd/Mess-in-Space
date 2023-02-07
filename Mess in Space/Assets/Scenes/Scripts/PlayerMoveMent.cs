@@ -22,7 +22,7 @@ public class PlayerMoveMent : MonoBehaviour
 
     private void FixedUpdate()
     {
-        _rigidbody.MovePosition(_rigidbody.position + _movement.normalized * Time.fixedDeltaTime * speed);
+        transform.Translate(transform.position + _movement.normalized * Time.fixedDeltaTime * speed);
         transform.localRotation = Quaternion.Euler(0, _cursorInput.x, 0);
     }
 }
