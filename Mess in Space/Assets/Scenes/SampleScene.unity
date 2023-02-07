@@ -270,6 +270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  jumpForce: 35
   _rigidbody: {fileID: 185336523}
 --- !u!1 &705507993
 GameObject:
